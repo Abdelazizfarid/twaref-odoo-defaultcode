@@ -1,0 +1,393 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_reconcile_wizard
+# 
+# Translators:
+# Wil Odoo, 2025
+# Manav Shah, 2025
+# Ujjawal Pathak, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-10 08:58+0000\n"
+"PO-Revision-Date: 2025-02-12 16:03+0000\n"
+"Last-Translator: Ujjawal Pathak, 2025\n"
+"Language-Team: Hindi (https://app.transifex.com/odoo/teams/41243/hi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: hi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__account_id
+msgid "Account"
+msgstr "खाता"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/models/account_move_line.py:0
+#, python-format
+msgid ""
+"Account %s does not allow reconciliation. First change the configuration of "
+"this account to allow it."
+msgstr ""
+"%s खाता में मिलान करने की सुविधा चालू नहीं है. इसे इस्तेमाल करने के लिए, "
+"आपको पहले इस खाते की सेटिंग्स में जाकर मिलान करने की अनुमति देनी होगी."
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__transfer_from_account_id
+msgid "Account Transfer From"
+msgstr "से अकाउंट ट्रांसफ़र"
+
+#. module: account_reconcile_wizard
+#: model:ir.model,name:account_reconcile_wizard.model_account_reconcile_wizard
+msgid "Account reconciliation wizard"
+msgstr "अकाउंट रेकन्सिलीऐशन विज़ॉर्ड"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__reco_model_autocomplete_ids
+msgid "All reconciliation models"
+msgstr "सभी रेकन्सिलीऐशन मॉडल"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__allow_partials
+msgid "Allow partials"
+msgstr "पार्शियल को अनुमति दें"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__amount_currency
+msgid "Amount"
+msgstr "रकम"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__amount
+msgid "Amount in company currency"
+msgstr "कंपनी की करेंसी में राशि"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_reconcile_wizard.py:0
+#, python-format
+msgid ""
+"An entry will transfer %(amount)s from %(from_account)s to %(to_account)s."
+msgstr ""
+"एक एंट्री से %(amount)s, %(from_account)s से %(to_account)s में चले जाएंगे."
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,help:account_reconcile_wizard.field_account_reconcile_wizard__to_check
+msgid ""
+"Check if you are not certain of all the information of the counterpart."
+msgstr ""
+"अगर आपको दूसरे पक्ष की पूरी जानकारी पर भरोसा नहीं है, तो उसे दोबारा जाँच "
+"लें."
+
+#. module: account_reconcile_wizard
+#: model:ir.model,name:account_reconcile_wizard.model_res_company
+msgid "Companies"
+msgstr "कंपनियां"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__company_id
+msgid "Company"
+msgstr "संस्था"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__company_currency_id
+msgid "Company currency"
+msgstr "कंपनी की करेंसी"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__create_uid
+msgid "Created by"
+msgstr "द्वारा निर्मित"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__create_date
+msgid "Created on"
+msgstr "इस तारीख को बनाया गया"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/models/account_move_line.py:0
+#: code:addons/account_reconcile_wizard/models/account_move_line.py:0
+#, python-format
+msgid "Currency exchange rate difference"
+msgstr "करेंसी एक्सचेंज रेट में अंतर"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__reco_currency_id
+msgid "Currency to use for reconciliation"
+msgstr "मिलान करने के लिए इस्तेमाल होने वाली करेंसी"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__date
+msgid "Date"
+msgstr "तिथि"
+
+#. module: account_reconcile_wizard
+#: model_terms:ir.ui.view,arch_db:account_reconcile_wizard.view_account_reconcile_wizard
+msgid "Discard"
+msgstr "खारिज करें"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__display_allow_partials
+msgid "Display Allow Partials"
+msgstr "'आंशिक रूप से स्वीकार' विकल्प दिखाएं"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__display_name
+msgid "Display Name"
+msgstr "डिस्प्ले नाम"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/models/account_move_line.py:0
+#, python-format
+msgid "Entries are not from the same account: %s"
+msgstr "ये एंट्रीज़ एक ही खाते की नहीं हैं: %s"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/models/account_move_line.py:0
+#, python-format
+msgid "Entries don't belong to the same company: %s"
+msgstr "ये एंट्रीज़ एक ही कंपनी की नहीं हैं: %s"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__force_partials
+msgid "Force Partials"
+msgstr "फोर्स पार्शियल"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__id
+msgid "ID"
+msgstr "आईडी"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__is_write_off_required
+msgid "Is a write-off move required to reconcile"
+msgstr "हिसाब बराबर करने के लिए रकम 'राइट-ऑफ' है"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__is_transfer_required
+msgid "Is an account transfer required"
+msgstr "पैसा एक खाते से दूसरे में ले जाने की ज़रूरत है"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__transfer_warning_message
+msgid "Is an account transfer required to reconcile"
+msgstr "हिसाब मिलाने के लिए पैसा एक खाते से दूसरे में भेजना ज़रूरी है"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__lock_date_violated_warning_message
+msgid "Is the date violating the lock date of moves"
+msgstr "यह तारीख लॉक की हुई तारीख के बाद की है"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__journal_id
+msgid "Journal"
+msgstr "पत्रिका"
+
+#. module: account_reconcile_wizard
+#: model:ir.model,name:account_reconcile_wizard.model_account_move_line
+msgid "Journal Item"
+msgstr "जर्नल आइटम"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__label
+msgid "Label"
+msgstr "लेबल"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__write_uid
+msgid "Last Updated by"
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__write_date
+msgid "Last Updated on"
+msgstr "आखिरी बार अपडेट हुआ"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__move_line_ids
+msgid "Move lines to reconcile"
+msgstr "मिलाने के लिए मूव लाइन"
+
+#. module: account_reconcile_wizard
+#: model_terms:ir.ui.view,arch_db:account_reconcile_wizard.view_account_reconcile_wizard
+msgid ""
+"Only partial reconciliation is possible. Proceed in multiple steps if you "
+"want to full reconcile."
+msgstr ""
+"अभी पूरा हिसाब नहीं मिल पाएगा, सिर्फ़ थोड़ा ही मिलेगा. अगर पूरा हिसाब मिलाना"
+" है, तो इसे कई बार में करना होगा."
+
+#. module: account_reconcile_wizard
+#: model_terms:ir.ui.view,arch_db:account_reconcile_wizard.view_account_reconcile_wizard
+msgid "Reconcile"
+msgstr "रेकन्साइल"
+
+#. module: account_reconcile_wizard
+#: model_terms:ir.ui.view,arch_db:account_reconcile_wizard.view_account_reconcile_wizard
+msgid "Reconcile & open"
+msgstr "रेकन्साइल और ओपन"
+
+#. module: account_reconcile_wizard
+#: model:ir.actions.server,name:account_reconcile_wizard.action_backport_reconcile_wizard
+msgid "Reconcile (wizard)"
+msgstr ""
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__reco_account_id
+msgid "Reconcile Account"
+msgstr "रेकन्साइल अकाउंट"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__reco_model_id
+msgid "Reconciliation model"
+msgstr "रेकन्सिलीऐशन मॉडल"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__single_currency_mode
+msgid "Single Currency Mode"
+msgstr "सिंगल करेंसी मोड"
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__tax_id
+msgid "Tax"
+msgstr "टैक्स"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_reconcile_wizard.py:0
+#, python-format
+msgid ""
+"The date you set violates the lock date of one of your entry. It will be "
+"overriden by the following date : %(replacement_date)s"
+msgstr ""
+"आपके द्वारा डाली गई तारीख, आपकी किसी एंट्री की 'लॉक डेट' से मेल नहीं खाती. "
+"इसलिए, उसे बदलकर कर दिया जाएगा: %(replacement_date)s"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_reconcile_wizard.py:0
+#, python-format
+msgid "This can only be used on journal items"
+msgstr "इसका इस्तेमाल सिर्फ़ जर्नल आइटम पर ही किया जा सकता है."
+
+#. module: account_reconcile_wizard
+#: model:ir.model.fields,field_description:account_reconcile_wizard.field_account_reconcile_wizard__to_check
+msgid "To Check"
+msgstr "जांच करने के लिए"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_reconcile_wizard.py:0
+#, python-format
+msgid "Transfer from %s"
+msgstr "%s से भेजा गया"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_reconcile_wizard.py:0
+#, python-format
+msgid "Transfer to %s"
+msgstr "%s में भेजें"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_reconcile_wizard.py:0
+#, python-format
+msgid "Write-Off"
+msgstr "राइट-ऑफ़"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_reconcile_wizard.py:0
+#, python-format
+msgid "Write-Off Entry"
+msgstr "राइट-ऑफ़ एंट्र"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/models/account_move_line.py:0
+#, python-format
+msgid "You are trying to reconcile some entries that are already reconciled."
+msgstr ""
+"आप उन एंट्रीज़ का हिसाब मिलाने की कोशिश कर रहे हैं जो पहले से ही मिलाई जा "
+"चुकी हैं."
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/wizard/account_reconcile_wizard.py:0
+#, python-format
+msgid "You can only reconcile entries with up to two different accounts: %s"
+msgstr "आप एक साथ ज़्यादा से ज़्यादा दो खातों का हिसाब मिला सकते हैं: %s"
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/models/account_move_line.py:0
+#, python-format
+msgid "You can only reconcile posted entries."
+msgstr ""
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/models/account_move_line.py:0
+#, python-format
+msgid ""
+"You have to configure the 'Exchange Gain or Loss Journal' in your company "
+"settings, to manage automatically the booking of accounting entries related "
+"to differences between exchange rates."
+msgstr ""
+"आपको अपनी कंपनी की सेटिंग्स में 'एक्सचेंज गेन या लॉस जर्नल' को सेट करना "
+"होगा. यह इसलिए ज़रूरी है, ताकि जब विदेशी मुद्रा की दरों में बदलाव के कारण "
+"आपके हिसाब-किताब में फायदा या नुकसान हो, तो उसकी एंट्री अपने-आप दर्ज हो सके."
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/models/account_move_line.py:0
+#, python-format
+msgid ""
+"You should configure the 'Gain Exchange Rate Account' in your company "
+"settings, to manage automatically the booking of accounting entries related "
+"to differences between exchange rates."
+msgstr ""
+"आपको अपनी कंपनी की सेटिंग्स में 'गेन एक्सचेंज रेट अकाउंट' सेट करना होगा. यह "
+"इसलिए ज़रूरी है, ताकि जब विदेशी मुद्रा की दरों में बदलाव के कारण आपको फायदा "
+"हो, तो उसकी अकाउंटिंग एंट्री अपने-आप दर्ज हो सके."
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/models/account_move_line.py:0
+#, python-format
+msgid ""
+"You should configure the 'Loss Exchange Rate Account' in your company "
+"settings, to manage automatically the booking of accounting entries related "
+"to differences between exchange rates."
+msgstr ""
+"आपको अपनी कंपनी की सेटिंग्स में 'लॉस एक्सचेंज रेट अकाउंट' सेट करना होगा. यह "
+"इसलिए ज़रूरी है, ताकि जब विदेशी मुद्रा की दरों में बदलाव के कारण आपको फायदा "
+"हो, तो उसकी अकाउंटिंग एंट्री अपने-आप दर्ज हो सके."
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/models/company.py:0
+#, python-format
+msgid "tax"
+msgstr ""
+
+#. module: account_reconcile_wizard
+#. odoo-python
+#: code:addons/account_reconcile_wizard/models/company.py:0
+#, python-format
+msgid "user"
+msgstr ""
